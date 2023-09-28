@@ -21,12 +21,23 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Full Stack JavaScript TypeScript Developer</p>
+        <p>I am currently working as Software Engineer at <a href="https://opexconsult.com/">Opex Consult</a>. I am a self taught developer, Love researching and building things to solve problem</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          I love exploring new technologies and being a professional, I like to
+          stay on top of latest trends. I try to leave every line of code I
+          write more Maintainable, Scalable, Testable and Secure.
         </p>
       </section>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Skills</h2>
+        <ul className={utilStyles.list}>
+        <li className={utilStyles.listItem}>JavaScript</li>
+        <li className={utilStyles.listItem}>TypeScript</li>
+        <li className={utilStyles.listItem}>React.Js</li>
+        <li className={utilStyles.listItem}>Next.Js</li>
+        <li className={utilStyles.listItem}>Node.Js</li>
+        </ul>
+      </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
